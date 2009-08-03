@@ -10,3 +10,10 @@ http://github.com/xlvector/xlvector-github-contest/tree/master
 == New to the contest?
 
 Our first big increase in score came from suggesting forked repositories. To test that, I used blend_unwatched_sources.rb on a file of 20 suggestions per user.
+
+Next up was creating a 2nd test file to ensure our algorithm wasn't overfitting.
+
+First I created a pre-processed file with user_watches.rb:
+
+  ruby user_watches.rb > user_watches.txt
+
