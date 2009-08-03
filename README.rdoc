@@ -17,3 +17,8 @@ First I created a pre-processed file with user_watches.rb:
 
   ruby user_watches.rb > user_watches.txt
 
+Next, create new training_data and a hold-out set:
+
+  cd data; ruby prepare_training_set.rb
+
+The score.rb file lets you test locally, instead of having to constantly push to the github repo.
