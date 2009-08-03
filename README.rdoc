@@ -6,3 +6,7 @@ Need a recommendation system? Email me: chebuctonian at gmail
 
 Theories are tested here before they're passed on and incorporated by my teammate Liang:
 http://github.com/xlvector/xlvector-github-contest/tree/master
+
+== New to the contest?
+
+Our first big increase in score came from suggesting forked repositories. To test that, I used blend_unwatched_sources.rb on a file of 20 suggestions per user.
